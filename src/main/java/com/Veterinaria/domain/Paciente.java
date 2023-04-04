@@ -35,7 +35,4 @@ public class Paciente {
         this.color = color;
         this.idCliente = idCliente;
     }
-    
-    
-
 }
