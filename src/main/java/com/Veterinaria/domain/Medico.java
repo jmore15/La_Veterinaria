@@ -22,5 +22,14 @@ public class Medico implements Serializable {
     private String nombre;
     private String apellido;
 
+    public Medico() {
+    }
+
+    public Medico(long idEspecialidad, String nombre, String apellido) {
+        this.idEspecialidad = idEspecialidad;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+
 
 }

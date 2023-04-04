@@ -23,4 +23,14 @@ public class Cliente implements Serializable{
     private String apellido;
     private int telefono;
 
+    public Cliente() {
+    }
+
+    public Cliente(String nombre, String apellido, int telefono) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.telefono = telefono;
+    }
+
+    
 }

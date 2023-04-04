@@ -19,6 +19,13 @@ public class Especialidad implements Serializable{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long idespecialidad;
     private String nombreEspec;
+
+    public Especialidad() {
+    }
+
+    public Especialidad(String nombreEspec) {
+        this.nombreEspec = nombreEspec;
+    }
    
 
 }

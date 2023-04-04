@@ -24,4 +24,16 @@ public class Cita implements Serializable {
     private String fecha;
     private String hora;
 
+    public Cita() {
+    }
+
+    public Cita(long idMascota, long idMedico, String nombre, String fecha, String hora) {
+        this.idMascota = idMascota;
+        this.idMedico = idMedico;
+        this.nombre = nombre;
+        this.fecha = fecha;
+        this.hora = hora;
+    }
+
+    
 }
