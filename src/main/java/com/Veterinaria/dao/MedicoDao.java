@@ -1,5 +1,8 @@
 package com.Veterinaria.dao;
 
-public interface MedicoDao {
+import com.Veterinaria.domain.Medico;
+import org.springframework.data.repository.CrudRepository;
+
+public interface MedicoDao extends CrudRepository<Medico, Long> {
 
 }

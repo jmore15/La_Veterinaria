@@ -1,5 +1,8 @@
 package com.Veterinaria.dao;
 
-public interface RegistroDao {
+import com.Veterinaria.domain.Registro;
+import org.springframework.data.repository.CrudRepository;
+
+public interface RegistroDao extends CrudRepository<Registro, Long> {
 
 }

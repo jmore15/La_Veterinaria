@@ -1,5 +1,8 @@
 package com.Veterinaria.dao;
 
-public interface EspecialidadDao {
+import com.Veterinaria.domain.Especialidad;
+import org.springframework.data.repository.CrudRepository;
+
+public interface EspecialidadDao extends CrudRepository<Especialidad, Long> {
 
 }

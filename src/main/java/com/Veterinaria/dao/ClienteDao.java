@@ -1,5 +1,8 @@
 package com.Veterinaria.dao;
 
-public interface ClienteDao {
+import com.Veterinaria.domain.Cliente;
+import org.springframework.data.repository.CrudRepository;
 
+public interface ClienteDao extends CrudRepository<Cliente, Long> {
+    
 }
