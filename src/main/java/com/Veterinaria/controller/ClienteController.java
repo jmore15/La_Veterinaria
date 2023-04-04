@@ -11,8 +11,7 @@ public class ClienteController {
     
     @GetMapping("/")
     public String inicio(Model model) {
-        model.addAttribute("attribute", "value");
-        return "view.name";
+        return "Index";
     }
     
 }
