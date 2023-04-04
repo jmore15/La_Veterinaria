@@ -18,5 +18,10 @@ public class Cita implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long idCita;
+    private long idMascota;
+    private long idMedico;
+    private String nombre;
+    private String fecha;
+    private String hora;
 
 }
